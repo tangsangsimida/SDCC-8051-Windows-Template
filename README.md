@@ -20,10 +20,10 @@
 ## 环境要求
 
 - Windows 操作系统
-- SDCC (Small Device C Compiler)
-- Make (推荐使用 MinGW 或 MSYS2 提供的 Make)
-- VSCode (可选，但推荐用于代码编辑和调试)
-- stcgal (用于烧录程序到 STC 系列芯片，可选)
+- SDCC (Small Device C Compiler) - 用于编译 C 代码为 8051 机器码
+- GCC (包含 MinGW 或 MSYS2 环境中的 Make 工具) - 用于执行 Makefile 中的构建指令
+- VSCode - 推荐的代码编辑器，已配置好 8051 项目开发所需插件和设置
+- stcgal (可选) - 用于将编译好的程序烧录到 STC 系列 8051 芯片
 
 ## 构建和烧录
 
