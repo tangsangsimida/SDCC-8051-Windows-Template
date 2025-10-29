@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "8051 (SDCC)",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/software/SDCC/include/mcs51",
+                "D:/software/SDCC/include"
+            ],
+            "defines": [
+                "__SDCC__",
+                "__SDCC_mcs51",
+                "__sfr=volatile unsigned char",
+                "__sbit=volatile unsigned char",
+                "__at(x)=",
+                "__bit=volatile unsigned char"
+            ],
+            "compilerPath": "D:/software/SDCC/bin/sdcc.exe",
+            "cStandard": "c99",
+            "intelliSenseMode": "windows-msvc-x86"
+        }
+    ],
+    "version": 4
+}
